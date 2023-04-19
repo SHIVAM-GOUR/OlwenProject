@@ -1,0 +1,56 @@
+.container  {
+    margin: 20px 150px;    
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #F26733;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.heading {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.addressBox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.officeBox {
+    width: 300px;
+}
+.address {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.email {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/* Desktop View */
+@media only screen and (min-width: 1000px) {
+	
+}
+
+/* Tablet View */
+@media only screen and (max-width: 999px) {
+	
+}
+
+/* Mobile View */
+@media only screen and (max-width: 450px) {
+    .container {
+        margin: 12px 50px;
+    }
+	.title {
+        font-size: 25px;
+    }
+}

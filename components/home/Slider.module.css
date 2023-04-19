@@ -1,0 +1,11 @@
+.sliderImage {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+    .sliderImage{
+        height: 650px;
+        object-fit: cover;
+    }
+  }

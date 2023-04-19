@@ -1,0 +1,56 @@
+.container {
+  padding: 30px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px solid grey;
+}
+.linkBox {
+  display: flex;
+  flex-direction: column;
+}
+.aboutBox {
+  width: 250px !important;
+}
+.aboutText {
+  color: black;
+  font-size: 14px;
+}
+.link {
+  color: black !important;
+  font-weight: 600;
+  margin-bottom: 20px !important;
+}
+.trademarkSection {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: stretch !important;
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .linkBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .link {
+    font-weight: 600;
+    margin-bottom: 30px !important;
+    font-size: 14px !important;
+  }
+  .aboutBox {
+    width: 200px !important;
+    margin-right: 5px;
+    align-items: center;
+  }
+  .aboutText {
+    color: black;
+    font-size: 13px;
+    text-align: center;
+  }
+}

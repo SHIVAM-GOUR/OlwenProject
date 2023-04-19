@@ -1,0 +1,55 @@
+.container {
+  margin: 30px 150px;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.heading  {
+    text-align: center;
+    color: #F26733;    
+    font-size: 25px;
+    font-weight: 600;
+}
+.aboutText {
+    font-weight: 600;
+    text-align: justify;
+}
+
+/* Desktop View */
+@media only screen and (min-width: 1000px) {
+    .container {
+      margin: 30px 150px;
+    }
+    .title {
+        margin-top: 50px;
+    }
+}
+/* Tablet View */
+@media only screen and (max-width: 999px) {
+    .container {
+        margin: 30px 80px !important;
+      }
+}
+@media only screen and (max-width: 700px) {
+    .container {
+        margin: 30px 40px !important;
+      }
+}
+/* Mobile View */
+@media only screen and (max-width: 450px) {
+    .container {
+        margin: 30px 20px !important;
+      }
+    .title {
+        font-size: 25px;
+    }
+    .heading {
+        font-size: 19px;
+    }
+    .aboutText {
+        font-size: 14px;
+    }
+}
+

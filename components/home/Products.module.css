@@ -1,0 +1,40 @@
+.container {
+    padding: 30px 100px;
+    background-color: whitesmoke;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.heading {
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 1px solid #F26733;
+}
+.productsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* @media only screen and (min-width: 1000px) {
+	
+} */
+
+/* Tablet View */
+/* @media only screen and (max-width: 999px) {
+	
+} */
+
+/* Mobile View */
+@media only screen and (max-width: 450px) {
+    .container {
+        padding: 20px 10px;
+    }
+    .title {
+        font-size: 25px;
+    }
+	
+}
