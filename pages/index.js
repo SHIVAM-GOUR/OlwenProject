@@ -16,7 +16,7 @@ export default function Home() {
           content="Go4Agri"
         />
       </Head>
-      <h1>Go4Agri</h1>
+      <h1>Go4Agri -2</h1>
       {/* CODE OF OLWEN */}
       {/* <MetaHead title="Olwen lifesciences" /> */}
       {/* <Navbar/>
