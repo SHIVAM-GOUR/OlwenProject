@@ -1,4 +1,6 @@
 import Head from "next/head";
+import GoAgriHome from "../components/Go4Agri/GoAgriHome";
+import { Fragment } from "react";
 // import Footer from "../components/footer/Footer";
 // import MetaHead from "../components/header/MetaHead";
 // import HomePage from "../components/home/HomePage";
@@ -8,7 +10,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div>
+    <Fragment>
       <Head>
         <title>Go4Agri</title>
         <meta
@@ -16,11 +18,11 @@ export default function Home() {
           content="Go4Agri"
         />
       </Head>
-      <h1>Go4Agri -2</h1>
+      <GoAgriHome />
       {/* CODE OF OLWEN */}
       {/* <MetaHead title="Olwen lifesciences" /> */}
       {/* <Navbar/>
       <HomePage /> */}
-    </div>
+    </Fragment>
   );
 }
