@@ -1,43 +1,77 @@
 .container {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .navbar {
-    background-color: green;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 20px;
+  /* background-color: green; */
+  background-color: rgb(56, 56, 56);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
 }
 .logo {
-    font-size: 30px;
-    font-weight: 600;
-    margin: 0;
-    color: white;
-    font-style: italic;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+  font-style: italic;
 }
 .button {
-    text-decoration: none;
-    color: green;
-    background-color: yellow;
-    text-transform: none;
+  text-decoration: none;
+  color: yellow;
+  background-color: green;
+  text-transform: none;
+}
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contactPara {
+  color: green;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.contactMail {
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+  background-color: silver;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.mailIcon {
+  margin: 0 10px;
+  color: blue;
 }
 .formBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .footer {
-    background-color: green;
-    height: 100px;   
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: green;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer p {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
