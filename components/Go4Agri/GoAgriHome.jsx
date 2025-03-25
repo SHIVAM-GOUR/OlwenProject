@@ -28,7 +28,7 @@ const GoAgriHome = () => {
           className={styles.button}
           onClick={scrollToSection}
         >
-          Contact
+          Contact us
         </Button>
       </div>
       <ImageWithText text="Welcome to Go4Agri Certifications!" />
