@@ -1,0 +1,27 @@
+.container {
+    position: absolute;    
+    top:  200px;
+    z-index: 12;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnBox {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    border: none;
+    margin: 10px;
+    background-color: white;
+    color: green;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 5px;
+}

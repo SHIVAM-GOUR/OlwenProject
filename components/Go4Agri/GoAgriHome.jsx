@@ -6,31 +6,15 @@ import poster from "../../public/images/agriImage.jpg";
 import Image from "next/image";
 import LOGO from "../../public/logo/GO4AGRI-PNG-LOGO.png";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import Navbar from "./Navbar";
+import ButtonSection from "./ButtonSection";
 
 const GoAgriHome = () => {
   const isMobile = useMediaQuery("max-width:600px");
-  const scrollToSection = () => {
-    const targetElement = document.getElementById("form");
-    if (targetElement) {
-      targetElement.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-        inline: "nearest",
-      });
-    }
-  };
   return (
     <div className={styles.container}>
-      <div className={styles.navbar}>
-        <Image src={LOGO} width={100} height={100} alt="go4agri logo" />
-        <Button
-          variant="contained"
-          className={styles.button}
-          onClick={scrollToSection}
-        >
-          Contact us
-        </Button>
-      </div>
+      <Navbar/>
+      <ButtonSection/>
       <ImageWithText text="Welcome to Go4Agri Certifications!" />
       <div className={styles.contactContainer}>
         <div className={styles.contactBox} id="form">
