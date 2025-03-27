@@ -18,6 +18,16 @@
     border-radius: 7px;
 }
 
+.linkText {
+    color: white;
+    /* display: inline; */
+}
+
 .linkBtn {
     color: blue;
+    font-style: italic;
+}
+
+.centerCont {
+    justify-items: center;
 }
